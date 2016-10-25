@@ -3,8 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>Intro to JavaScript</title>
+        <!-- Styles can go up top, because they don't delay page loading -->
+        <link rel="stylesheet" type="text/css" href="my_style.css"></link>
     </head>
     <body>
 
+        <!-- Page load waits for scripts to process -->
+        <!-- So put the script tag at the end of the body -->
+        <!-- It makes things faster -->
+        <script type="text/javascript" src="my_app.js"></script>
     </body>
 </html>
