@@ -2,3 +2,27 @@
 This is an empty css file
 with this one comment
 */
+
+input {
+    font-size: 24px;
+}
+
+button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+button:focus {
+    outline:0;
+}
+
+.wrapper {
+    margin: 20px;
+}

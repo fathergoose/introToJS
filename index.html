@@ -8,6 +8,19 @@
     </head>
     <body>
 
+        <div class="wrapper">
+            <label>Choose a new color</label>
+            <input type="text" id="color-input" placeholder='like "blue" or "bisque"'/>
+            <span id="warning"></span>
+        </div>
+
+        <div class="wrapper">
+            <button id="color-box" onclick="changeColor(this, 'blue')">
+                Click me a new color
+            </button>
+        </div>
+
+
         <!-- Page load waits for scripts to process -->
         <!-- So put the script tag at the end of the body -->
         <!-- It makes things faster -->
